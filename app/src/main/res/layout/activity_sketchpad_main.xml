@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:id="@+id/widget40">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:orientation="horizontal"
+        android:gravity="right"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginTop="40dp">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            >
+        </TextView>
+        <!--  进度条修改  修改起始点 -->
+        <LinearLayout android:id="@+id/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_marginRight="5dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="#0F0F0F"
+                android:text="@string/thin" />
+            <SeekBar android:id="@+id/seekBar"
+                android:layout_width="100dip"
+                android:layout_height="18dip"
+                android:background="@drawable/bar"/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="#0F0F0F"
+                android:text="@string/thick" />
+        </LinearLayout>
+        <!-- 修改截止点 -->
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+        <com.zzw.sketchpad.view.SketchpadView
+            android:id="@+id/SketchadView"
+            android:layout_height="720px"
+            android:layout_width="775px">"
+        </com.zzw.sketchpad.view.SketchpadView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+                <Button android:id="@+id/buttonnew_ID"
+                    android:layout_width="85px"
+                    android:layout_height="65px"
+                    android:background="@drawable/newx"></Button>
+                <Button android:id="@+id/buttonopen_ID"
+                    android:layout_width="85px"
+                    android:layout_height="65px"
+                    android:background="@drawable/openx"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+                <Button android:id="@+id/buttoncolor_ID"
+                    android:layout_width="85px"
+                    android:layout_height="65px"
+                    android:background="@drawable/colorx"></Button>
+                <Button android:id="@+id/buttonsave_ID"
+                    android:layout_width="85px"
+                    android:layout_height="65px"
+                    android:background="@drawable/savex"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+                <Button android:id="@+id/buttonpen_ID"
+                    android:layout_width="85px"
+                    android:layout_height="65px"
+                    android:background="@drawable/penx"></Button>
+                <Button android:id="@+id/buttoneraser_ID"
+                    android:layout_width="85px"
+                    android:layout_height="65px"
+                    android:background="@drawable/eraserx"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+                <Button android:id="@+id/buttonpaintpot_ID"
+                    android:layout_width="85px"
+                    android:layout_height="65px"
+                    android:background="@drawable/yqtx"></Button>
+                <Button android:id="@+id/buttonspraygun_ID"
+                    android:layout_width="85px"
+                    android:layout_height="65px"
+                    android:background="@drawable/pqx"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+                <Button android:id="@+id/buttonoval_ID"
+                    android:layout_width="85px"
+                    android:layout_height="65px"
+                    android:background="@drawable/tyx"></Button>
+                <Button android:id="@+id/buttonrect_ID"
+                    android:layout_width="85px"
+                    android:layout_height="65px"
+                    android:background="@drawable/cubex"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+                <Button android:id="@+id/buttonline_ID"
+                    android:layout_width="85px"
+                    android:layout_height="65px"
+                    android:background="@drawable/linex"></Button>
+                <Button android:id="@+id/buttoncycle_ID"
+                    android:layout_width="85px"
+                    android:layout_height="65px"
+                    android:background="@drawable/circlex"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+                <Button android:id="@+id/buttonundo_ID"
+                    android:layout_width="85px"
+                    android:layout_height="65px"
+                    android:background="@drawable/undox"></Button>
+                <Button android:id="@+id/buttonplygon_ID"
+                    android:layout_width="85px"
+                    android:layout_height="65px"
+                    android:background="@drawable/dbxx"></Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+                <Button android:id="@+id/buttonredo_ID"
+                    android:layout_width="85px"
+                    android:layout_height="65px"
+                    android:background="@drawable/redox"></Button>
+                <Button android:id="@+id/buttonabout_ID"
+                    android:layout_width="85px"
+                    android:layout_height="65px"
+                    android:background="@drawable/gyx"></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+    <!-- <LinearLayout
+    android:id="@+id/widget40"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <ImageButton
+    android:id="@+id/widget36"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/redox"
+    >
+    </ImageButton>
+    <ImageButton
+    android:id="@+id/widget36"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gyx"
+    >
+    </ImageButton>
+    </LinearLayout> -->
+
+
+
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        />
+    </LinearLayout>
+    -->

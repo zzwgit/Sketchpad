@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:orientation="vertical"
+	android:id="@+id/save_dialog"
+	android:name="com.project.sketchpad.SaveGridViewDemo"
+	>
+	
+	<GridView android:id="@+id/grid1" android:layout_width="400dp"
+	android:paddingTop="0dip" android:paddingLeft="3dip"
+	android:paddingRight="3dip" android:paddingBottom="3dip"
+	android:columnWidth="100px" android:layout_height="320px"
+	android:numColumns="3" android:verticalSpacing="10dp"
+	android:horizontalSpacing="10dp" android:stretchMode="columnWidth"
+	android:gravity="center">
+	</GridView>
+	
+	
+	<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:orientation="horizontal">
+	<TextView android:text="@string/filename"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:id="@+id/textView101"
+	android:gravity="center"
+	/>
+	<EditText 
+	android:layout_width="250dip"
+	android:layout_height="wrap_content" 
+	android:id="@+id/fileName"
+	android:layout_toRightOf="@id/textView101"
+	/>
+	<Button 
+	android:text="@string/dialog_save"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:id="@+id/save"
+	android:layout_toRightOf="@id/fileName"
+	/>
+	</RelativeLayout>
+	
+	
+</LinearLayout>

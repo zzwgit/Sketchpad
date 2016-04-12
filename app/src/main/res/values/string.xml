@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SketchpadActivity!</string>
+    <string name="app_name">画画板</string>
+    <string name="color">选择颜色</string>
+    <string name="file_name">小画板</string>
+    <string name="dialog_open">打开</string>
+    <string name="dialog_save">保存</string>
+    <string name="filename">文件名：</string>
+    <string name="thick">极粗</string>
+    <string name="thin">笔迹与橡皮宽度设置</string>
+</resources>

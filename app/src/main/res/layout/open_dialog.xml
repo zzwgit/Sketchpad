@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:orientation="vertical"
+	android:id="@+id/save_dialog"
+	android:name="com.project.sketchpad.OpenGridViewDemo"
+	>
+	
+	<GridView android:id="@+id/grid" android:layout_width="400dp"
+	android:paddingTop="0dip" android:paddingLeft="3dip"
+	android:paddingRight="3dip" android:paddingBottom="3dip"
+	android:columnWidth="100px" android:layout_height="400dp"
+	android:numColumns="3" android:verticalSpacing="10dp"
+	android:horizontalSpacing="10dp" android:stretchMode="columnWidth"
+	android:gravity="center">
+	</GridView>
+	
+</LinearLayout>
